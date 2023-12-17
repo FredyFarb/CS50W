@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIT</title>
+    
+
 </head>
 <body>
-    Hola mundo.
+    Hola mundo. 
+    <p>git clone + url para descargar repositorio, luego git add + miarchivo para adicionar un fichero, luego git commit -m + "una nota de la tarea realizada" o git commit -a para subirlo todo, luego un git status para ver cómo está el repositorio local. puedo descartar con git restore +archivo o git add file para quitar o confirmar.  en general confirmo y subo cambios con git push </p>
+    <p>con git commit -am "comentari" puedo subir todos los cambios o git commit -a "comentario".  Con git pull descargo la versión más actualizada</p>
+    <h2>Merge Conflicts</h2>
+    <p>conflicto de cambios, la secuencia de números es un hasg de cada confirmación y muestra la que tiene el conflicto, hay que eliminar marcadores que no quiero.  Para resolver el conflicto, eliminamos los marcadores directamente en el html que no me agradan. ya satisfecho uso el comando: git commit -am "mensaje de arreglo" y luego git push</p>
+    <h3>Comandos útiles</h3>
+    <p>git log: para ver todos los cambios y confirmaciones realizadas. volver a tras se hace con git reset, además reestablecer todo con git reset --hard "commit hags de confirmación o mensaje"  o git reset --hard origin/main toma la versión original.</p>
+    <h3>branching - ramas</h3>
+    <p>trabajar caracteristicas por ramas, la principal será main, se puede ver cada rama</p>
+    <ol>
+        <li>git branch: indica que rama se está trabajando en el momento</li>
+        <li>git checkout -b +nombre nueva rama: para crear una rama</li>
+        <li>git checkout +nombre rama: y abre la rama que invoco</li>
+        <li></li>
+        <li></li>
+    </ol>
 </body>
 </html>
 
